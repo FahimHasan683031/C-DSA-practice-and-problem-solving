@@ -18,6 +18,5 @@ int nCr(int n, int r){
 
 int main(){
     cout << nCr(8,6);
-    cout << "here is result";
     return 0;
 }
