@@ -15,7 +15,15 @@ int binatyTodec (int binaryNum){
 }
 
 int main(){
-    cout << binatyTodec(101010);
+    cout << binatyTodec(101010) << endl;
+    int a= 5;
+    int b=6;
+    char chr = 'A';
 
-    cout;
+    cout << (a & b)<<endl;
+    
+    for (int i=0; i<5; i++){
+        cout << chr;
+        chr++;
+    }
 }
